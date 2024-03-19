@@ -1,0 +1,82 @@
+:root {
+    --blue: #002eff;
+    --cyan: #42e8b4;
+    --grey: #a4a4a6;
+    --grey-light: #a4a4a62e;
+    --pink: rgb(234, 51, 247);
+    --green: rgb(117, 251, 76);
+    --red: rgb(235, 72, 38);
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--blue);
+    background-image: linear-gradient(147deg, var(--blue) 0%, var(--cyan) 100%);
+    font-family: Barlow, sans-serif;
+}
+
+.bg-pink {
+    background: var(--pink);
+    border-radius: 5px;
+    padding: .1rem;
+}
+
+.bg-green {
+    background: var(--green);
+    border-radius: 5px;
+    padding: .1rem;
+}
+
+.bg-red {
+    background: var(--red);
+    border-radius: 5px;
+    padding: .1rem;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    font-size: .8rem;
+}
+
+.indicador {
+    display: flex;
+    gap: 10px;
+}
+
+.indicador__color {
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.indicador__color--pink {
+    background: var(--pink);
+}
+
+.indicador__color--green {
+    background: var(--green);
+}
+
+.indicador__color--red {
+    background: var(--red);
+}
+
+.tabla_detalle tbody td {
+    text-align: center;
+    width: 20%;
+}
+
+.tabla_detalle th:first-of-type, .tabla_detalle td:first-of-type {
+    background: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    text-align: left;
+}

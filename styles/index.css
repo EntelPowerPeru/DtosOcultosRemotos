@@ -1,0 +1,21 @@
+:root {
+    --blue: #002eff;
+    --cyan: #42e8b4;
+    --grey: #a4a4a6;
+    --grey-light: #a4a4a62e;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--blue);
+    background-image: linear-gradient(147deg, var(--blue) 0%, var(--cyan) 100%);
+    font-family: Barlow, sans-serif;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.fs-2r {
+    font-size: 2rem;
+}
